@@ -3,6 +3,9 @@
 
 Pure standard library, no network. Writes the line to /output/entry.txt
 and prints it to stdout.
+
+The line is a commit subject in the classic "fix: ..." style: the fix
+landed and logins work again, just never as yourself.
 """
 
 import os
